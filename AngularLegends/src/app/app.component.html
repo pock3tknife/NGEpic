@@ -1,0 +1,79 @@
+<div class="container">
+  <header class="item">
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+      <img src="./assets/images/lilwhip.PNG"  class="header__image">
+      <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" routerLink="/home" href="#">Features</a>
+        <a class="p-2 text-dark" routerLink="/employees" href="#">Enterprise</a>
+        <a class="p-2 text-dark" routerLink="/orders" href="#">Support</a>
+        <a class="p-2 text-dark" href="#">Pricing</a>
+        <a class="btn btn-outline-primary" routerLink="/user/registration" routerLinkActive='active' href="#">Sign up</a>
+        <!--<a class="btn btn-outline-primary" routerLink="/user/login" routerLinkActive='active' href="#">Sign in</a>-->
+      </nav>
+
+    </div>
+  </header>
+  <main>
+    <article class="item">
+      <router-outlet></router-outlet>
+    </article>
+    <!--<aside class="item sidebar-left">Left Sidebar</aside>-->
+    <aside class="item sidebar-right">
+      <div class="post">
+        <h2 class="post-title">Post 1</h2>
+  
+        <p class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+  
+        <a href="">Lorem ipsum dolor sit amet.</a>
+      </div>	
+  
+      <div class="post">
+        <h2 class="post-title">Post 2</h2>
+  
+        <p class="post-text">Eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  
+        <a href="">Lorem ipsum dolor sit amet.</a>
+      </div>
+  
+      <div class="post">
+        <h2 class="post-title">Post 3</h2>
+  
+        <p class="post-text">Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris.</p>
+  
+        <a href="">Lorem ipsum dolor sit amet.</a>
+      </div>
+  
+      <div class="post">
+        <h2 class="post-title">Post 4</h2>
+  
+        <p class="post-text">Nisi ut aliquip ex ea commodo
+        consequat, nuis aute irure.</p>
+  
+        <a href="">Lorem ipsum dolor sit amet.</a>
+      </div>
+  
+      <div class="post">
+        <h2 class="post-title">Post 5</h2>
+  
+        <p class="post-text">Dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</p>
+  
+        <a href="">Lorem ipsum dolor sit amet.</a>
+      </div>
+  
+      <div class="post">
+        <h2 class="post-title">Post 6</h2>
+  
+        <p class="post-text">Sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  
+        <a href="">Lorem ipsum dolor sit amet.</a>
+      </div>
+    </aside>
+  </main>
+  <footer class="footer mt-auto py-3">
+    <div class="container">
+      <span class="text-muted">&copy; Copyright 2020</span>
+    </div>
+  </footer>
+</div>
